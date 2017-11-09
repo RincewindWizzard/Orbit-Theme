@@ -227,6 +227,10 @@ p {
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
 }
+.skillset {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
@@ -234,6 +238,7 @@ p {
 .skillset .level-title {
   font-size: 14px;
   margin-top: 0;
+  width: 100%;
   margin-bottom: 12px;
 }
 .skillset .level-bar {
@@ -280,7 +285,7 @@ p {
   .skillset .level-title {
     display: inline-block;
     float: left;
-    width: 30%;
+    width: 100%;
     margin-bottom: 0;
   }
   .skillset .level-bar {
